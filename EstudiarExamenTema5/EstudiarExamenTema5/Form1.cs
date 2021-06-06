@@ -44,6 +44,11 @@ namespace EstudiarExamenTema5
             listaAlumnos.AppendText(miAlumnoStr);
             misAlumnos.Agregar(miAlumno);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Realmente no hace nada, solo quiero probar.");
+        }
     }
 
 

@@ -36,6 +36,7 @@ namespace EstudiarExamenTema5
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.aluNota = new System.Windows.Forms.NumericUpDown();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,11 +100,22 @@ namespace EstudiarExamenTema5
             this.aluNota.Size = new System.Drawing.Size(120, 20);
             this.aluNota.TabIndex = 14;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(469, 114);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(139, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "las pruebas";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(747, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.aluNota);
             this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.label3);
@@ -128,6 +140,7 @@ namespace EstudiarExamenTema5
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.NumericUpDown aluNota;
+        private System.Windows.Forms.Button button2;
     }
 }
 
